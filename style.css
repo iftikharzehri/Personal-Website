@@ -1,0 +1,21 @@
+
+    /* 
+     table {
+    table-layout: fixed;
+    border: 1px solid red;
+   width: 100%;
+   text-align: center;
+            
+    }
+    td{
+       border: 1px solid blue;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+    }
+  body  ::selection{
+        color: blue;
+        background-color: black;
+    }
+    
+    */
