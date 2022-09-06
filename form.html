@@ -4,36 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form-submission</title>
+    <link rel="stylesheet" href="styles.css " />
+    <title>Message Us</title>
   </head>
-  <body>
-    <form>
-      <label for="fname">First name:</label><br />
-      <input type="text" id="fname" name="fname" value="John" /><br />
-      <label for="lname">Last name:</label><br />
-      <input type="text" id="lname" name="lname" value="Doe" />
-    </form>
-
-    <form>
-      <input type="text" name="" id="" />
-      <br />
-      <input type="submit" value="submit" />
-
-      <br />
-      <input type="file" />
-      <br />
-      <input type="month" name="" id="" />
-      <br />
-      <input type="radio" name="" id="" />
-      <br />
-      <input type="range" />
-    </form>
-    <hr />
-    <form>
-      <label for="fname">First name:</label><br />
-      <input type="text" id="fname" name="fname" value="John" enabled /><br />
-      <label for="lname">Last name:</label><br />
-      <input type="text" id="lname" name="lname" value="Doe" />
-    </form>
+ 
+  <body class="body-contact">
+    <div id="fromcontainer"> 
+    <table class="form1">
+        <img src="images/cloud.png" id="formcloud" alt="">
+      <td>
+        <form action="mailto:iftikharahmed111000@gmail.com">
+          <label for="email">E-mail:</label>
+         
+          <input type="email" name="email" id="email" />
+          <br />
+          <label for="Name">Name:</label>
+          <input type="text" name="name" id="name" />
+          <br />
+          <textarea name="comment" id="comment" cols="35" rows="8">
+    Leave us a comment...</textarea
+          >
+          <br />
+          <button id="submit">Submit</button>
+        </form>
+      </td>
+    </table>
+</div>
   </body>
 </html>

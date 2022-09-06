@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 260px;
+  margin-bottom: 0;
+  
+  color: #358282;
+  font-family: sans-serif;
+  font-size: 60px;
+}
+h2 {
+  margin-top:30px;
+  padding: 0;
+  margin-bottom: 0;
+  color: #358282;
+}
+h3 {
+  color: #358282;
+}
+h4 {
+  text-align: center;
+  color: #358282;
+}
+
+.mountain {
+  height: 330px;
+  width: 800px;
+  display: inline-block;
+  margin-top: 8px;
+ 
+}
+.top-cloud {
+  height: 190px;
+  width: 250px;
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 290px;
+  display: inline-block;
+}
+.bottom-cloud {
+  height: 190px;
+  width: 250px;
+  display: inline-block;
+  position: absolute;
+  top:100px;
+  left: 180px;
+}
+.peeper {
+  height: 160px;
+  width: 160px;
+  border-radius: 100%;
+  background-color: rgb(222, 202, 206);
+}
+.web-dev-pic {
+  margin: 0;
+  height: 160px;
+  width: 160px;
+  border-radius: 100%;
+  background-color: beige;
+}
+.profile-pic {
+  height: 160px;
+  width: 160px;
+  border-radius: 100%;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.first {
+  background-color: #77b8b8;
+  display: inline-block;
+  width: 100%;
+  height: 730px;
+  
+}
+.second {
+  text-align: center;
+  justify-content: center;
+  display: grid;
+  align-content: center;
+ 
+}
+.copyright {
+  color: #11999e;
+  margin: 0;
+
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.instagram,
+.facebook,
+.twitter {
+  border-style: dotted;
+  border-color: #11999e;
+  border-radius: 28px;
+  height: 100px;
+
+  color: #11999e;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 50px;
+  border-width: 7px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+table {
+  margin-top: 100px;
+  width: 800px;
+  text-align: left;
+}
+
+a {
+  margin: 5px;
+  padding: 10px;
+}
+#contactME {
+  
+  height: 60px;
+  width: 130px;
+  margin: 50px;
+  background-color: #66bfbf;
+  color: white;
+  font-size: medium;
+  border-radius: 28px;
+  cursor: pointer;
+}
+/*--------form------*/
+#submit {
+  cursor: pointer;
+  background-color: #eaf6f6;
+  border-radius: 80px 80px;
+  height: 40px;
+  width: 210px;
+  margin-top: 10px;
+  margin-top: 30px;
+  margin-left: 90px;
+}
+.form1 {
+  margin: 0;
+  margin: 100px 0 100px 0;
+  background-color: #97e0e0;
+  border-radius: 80px 80px;
+
+  height: 500px;
+  width: 400px;
+  position: relative;
+}
+
+#name,
+#email {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 25px;
+  width: 380px;
+}
+#fromcontainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url("images/mountain.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #365a5a;
+}
+
+#formcloud {
+  height: 200px;
+  width: 300px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 100px;
+  top: 20px;
+}
+label {
+  font-size: 25px;
+
+  color: #207070;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#comment {
+  margin-left: 66px;
+}
+#contactME:hover {
+  color: #358282;
+  background-color: #ffffff;
+}
+.instagram:hover,
+.facebook:hover,
+.twitter:hover {
+  color: white;
+  background-color: #358282;
+}
