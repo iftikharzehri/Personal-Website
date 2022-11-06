@@ -86,18 +86,22 @@ h4 {
   padding-top: 40px;
   padding-bottom: 10px;
 }
-.instagram-img, .twitter-img, .facebook-img {
+.instagram-img,
+.twitter-img,
+.facebook-img {
   height: 50px;
   width: 50px;
-  border-style: outset;
+
   border-top: 0;
   border-bottom: 0;
   border-color: #11999e;
-  border-radius: 28px;
+
   margin-top: 100px;
 }
-.instagram-img, .twitter-img, .facebook-img:hover{
-cursor: pointer;
+.instagram-img,
+.twitter-img,
+.facebook-img:hover {
+  cursor: pointer;
 }
 p {
   margin: 0;
@@ -184,7 +188,7 @@ label {
 #comment {
   margin-left: 66px;
 }
- 
+
 /*
 -------------------------*/
 
@@ -220,10 +224,10 @@ button.learn-more .circle {
   position: relative;
   display: block;
   margin: 0;
-  
+
   width: 3rem;
   height: 3rem;
-  background:   #358282;
+  background: #358282;
   border-radius: 1.625rem;
 }
 button.learn-more .circle .icon {
@@ -277,4 +281,3 @@ button:hover .circle .icon.arrow {
 button:hover .button-text {
   color: #fff;
 }
-
